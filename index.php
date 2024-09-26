@@ -22,6 +22,7 @@
 <body class="bg-black">
 
     <div class="container p-5 text-center">
+
         <h1 class="text-white mb-4">
             Censurami le "bad w***s"
         </h1>
@@ -31,13 +32,14 @@
         <form action="./res.php" method="GET">
 
             <div class="form-floating mb-4">
-                <!-- Parola -->
+                <!-- Frase -->
+                <!-- name="" è obbligatorio per passare il dato -->
                 <input name="phrase" class="form-control" placeholder="Scrivi una frase.." id="floatingTextarea"></input>
                 <label for="floatingTextarea">Scrivi una frase...</label>
             </div>
 
             <div class="form-floating mb-4">
-                <!-- censura -->
+                <!-- Parola da censurare -->
                 <input name="word" class="form-control" placeholder="Scrivi la parola da censurare..." id="floatingTextarea"></input>
                 <label for="floatingTextarea">Scrivi la parola da censurare...</label>
             </div>
